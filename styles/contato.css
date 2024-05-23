@@ -35,6 +35,11 @@
     padding-left: 2em;
 }
 
+.contato__email:focus::placeholder {
+    color: transparent;
+    background: transparent; 
+}
+
 @media screen and (min-width: 1024px) {
     .contato {
         display: flex;

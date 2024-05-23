@@ -34,6 +34,11 @@
     background-position: 1em;
 }
 
+.banner__pesquisa:focus::placeholder {
+    color: transparent;
+    background: transparent; 
+}
+
 @media screen and (min-width: 1024px) {
     .banner__titulo {
         font-size: 36px;
