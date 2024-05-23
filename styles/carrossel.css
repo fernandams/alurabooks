@@ -12,6 +12,11 @@
     width: 100%;
 }
 
+.swiper-slide:hover {
+    scale: 1.1;
+    transition: .5s;
+}
+
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
