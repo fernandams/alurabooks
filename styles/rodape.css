@@ -29,6 +29,10 @@ hr {
         margin-left: 0.6em;
     }
 
+    .lista-rodapé__link:hover {
+        color: var(--laranja);
+    }
+    
     .lista-rodapé__titulo {
         font-size: 14px;
         color: var(--cinza-claro);
